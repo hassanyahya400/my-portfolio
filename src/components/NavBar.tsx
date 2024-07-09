@@ -4,7 +4,7 @@ import ColorModeSwitch from "./ColorModeSwitch";
 
 const NavBar = () => {
   return (
-    <Box>
+    <Box paddingInline="8">
       <HStack
         justifyContent="space-between"
         maxWidth="4xl"
@@ -12,8 +12,8 @@ const NavBar = () => {
         marginBlock="10"
       >
         <HStack>
-          <FaRegGem />
-          <Text>HASSAN YAHYA</Text>
+          <FaRegGem size="24" />
+          <Text fontWeight="500">HASSAN YAHYA</Text>
         </HStack>
         <ColorModeSwitch />
       </HStack>

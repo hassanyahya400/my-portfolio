@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Box position="relative" padding="10">
       <Divider />
-      <AbsoluteCenter>
+      <AbsoluteCenter px="10">
         <HStack cursor="pointer">
           <FaSquareXTwitter size="24" />
           <FaLinkedin size="24" />
