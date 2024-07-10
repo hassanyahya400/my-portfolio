@@ -19,7 +19,7 @@ const SectionButtonGroup = ({ activeSection, onSelectSection }: Props) => {
           variant="solid"
           rounded="18"
           paddingBlock="6"
-          onClick={() => onSelectSection(section.label)}
+          onClick={() => onSelectSection(section.slug)}
         >
           {section.label}
         </Button>

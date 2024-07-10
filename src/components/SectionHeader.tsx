@@ -13,6 +13,7 @@ const SectionHeader = ({ label }: Props) => {
         size="lg"
         marginBottom="2"
         textTransform="uppercase"
+        color="teal.500"
       >
         {label ? label : "Section header"}
       </Heading>

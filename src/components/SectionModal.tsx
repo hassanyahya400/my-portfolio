@@ -2,16 +2,27 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
   ModalCloseButton,
+  ModalBody,
 } from "@chakra-ui/react";
 
 import AboutMe from "./AboutMe";
+import WorkExperience from "./WorkExperience";
+import { ReactElement } from "react";
 interface Props {
   isOpen: boolean;
   onClose: () => void;
 }
-const SectionModal = ({ isOpen, onClose }: Props) => {
+
+interface Props {
+  activeSection: string;
+}
+const SectionModal = ({ isOpen, onClose, activeSection }: Props) => {
+  const sections: { [key: string]: ReactElement } = {
+    about_me: <AboutMe />,
+    work_experience: <WorkExperience />,
+  };
+
   return (
     <Modal
       isOpen={isOpen}
@@ -21,9 +32,13 @@ const SectionModal = ({ isOpen, onClose }: Props) => {
       colorScheme=""
     >
       <ModalOverlay backdropFilter="auto" backdropBlur="3px" />
-      <ModalContent width="2xl">
+      <ModalContent
+        width="2xl"
+        paddingBlock="12"
+        paddingInline={{ base: "0", md: "2", lg: "5" }}
+      >
         <ModalCloseButton />
-        <AboutMe />
+        <ModalBody>{sections[activeSection]}</ModalBody>
       </ModalContent>
     </Modal>
   );
