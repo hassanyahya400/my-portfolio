@@ -1,17 +1,16 @@
-import { Box, Center, Heading, Text, VStack } from "@chakra-ui/react";
-import SectionTab from "./SectionButtonGroup";
+import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 
 const ProfileSummary = () => {
   return (
     <Box paddingInline="8">
       <VStack
-        maxWidth="4xl"
+        maxWidth="3xl"
         marginInline="auto"
         marginBlock="10"
         alignItems="flex-start"
         gap="5"
       >
-        <Heading size="3xl">Hello there!</Heading>
+        <Heading size="3xl" color="teal">Hello Hassan 👋</Heading>
         <Text>
           Lorem ipsum <strong> dolor sit </strong> amet consectetur adipisicing
           elit. Error numquam nihil ut placeat cum consequuntur omnis impedit

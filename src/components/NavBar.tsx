@@ -7,12 +7,12 @@ const NavBar = () => {
     <Box paddingInline="8">
       <HStack
         justifyContent="space-between"
-        maxWidth="4xl"
+        maxWidth="3xl"
         marginInline="auto"
         marginBlock="10"
       >
         <HStack>
-          <FaRegGem size="24" />
+          <FaRegGem size="24" color="teal" />
           <Text fontWeight="500">HASSAN YAHYA</Text>
         </HStack>
         <ColorModeSwitch />
