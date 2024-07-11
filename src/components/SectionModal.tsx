@@ -10,6 +10,7 @@ import AboutMe from "./AboutMe";
 import WorkExperience from "./WorkExperience";
 import { ReactElement } from "react";
 import Projects from "./Projects";
+import Contact from "./Contact";
 interface Props {
   isOpen: boolean;
   onClose: () => void;
@@ -23,6 +24,7 @@ const SectionModal = ({ isOpen, onClose, activeSection }: Props) => {
     about_me: <AboutMe />,
     work_experience: <WorkExperience />,
     projects: <Projects />,
+    contact: <Contact />,
   };
 
   return (

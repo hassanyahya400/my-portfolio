@@ -13,7 +13,7 @@ const NavBar = () => {
       >
         <HStack>
           <FaRegGem size="24" color="teal" />
-          <Text fontWeight="500">HASSAN YAHYA</Text>
+          <Text fontWeight="500">HASSAN ⊡ YAHYA</Text>
         </HStack>
         <ColorModeSwitch />
       </HStack>

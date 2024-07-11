@@ -4,13 +4,13 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <Box position="relative" padding="10">
+    <Box padding="10" position="relative">
       <Divider />
-      <AbsoluteCenter px="10">
+      <AbsoluteCenter paddingInline="10">
         <HStack cursor="pointer">
-          <FaSquareXTwitter size="24" />
-          <FaLinkedin size="24" />
           <FaGithubSquare size="24" />
+          <FaLinkedin size="24" />
+          <FaSquareXTwitter size="24" />
           <FaMedium size="24" />
         </HStack>
       </AbsoluteCenter>

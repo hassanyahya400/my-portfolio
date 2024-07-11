@@ -29,7 +29,7 @@ const WorkExperience = () => {
           />
           <Text>{experience.description}</Text>
           <Stack gap="2" mt="2">
-            <Text fontWeight="600">Achievements</Text>
+            <Text fontWeight="800">Achievements</Text>
             {experience.achievements.split("/").map((achievement) => (
               <Text key={achievement}> - {achievement}</Text>
             ))}
