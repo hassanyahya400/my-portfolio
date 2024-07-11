@@ -10,7 +10,6 @@ const AboutMe = () => {
         alt="Green double couch with wooden legs"
         borderRadius="lg"
         width="md"
-        //   marginInline="auto"
       />
       <Text>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea earum quod
