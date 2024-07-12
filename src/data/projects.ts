@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    label: "Payme",
+    label: "Game Villa",
     description:
       "A mobile payment app for individuals and businesses that allows users to make payments, transfer funds, and manage their finances on the go. The app features a user-friendly interface, secure authentication, and integration with various payment gateways.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto culpa voluptas ullam voluptatem, rem alias iste nesciunt commodi, ratione cupiditate officia delectus a veritatis magnam maxime? Quam laudantium id hic.",
     techSkills: "React Native, Node.js, Express, MongoDB, Stripe",
@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     id: 2,
-    label: "InvestPlus",
+    label: "Tenzies Game",
     description:
       "A web platform for investing in stocks and cryptocurrencies that provides real-time market data, portfolio management tools, and secure transactions. The platform also features investment analysis and insights, as well as user account management.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto culpa voluptas ullam voluptatem, rem alias iste nesciunt commodi, ratione cupiditate officia delectus a veritatis magnam maxime? Quam laudantium id hic.",
     techSkills: "React, Node.js, Express, PostgreSQL, Coinbase API",
