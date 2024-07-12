@@ -1,4 +1,3 @@
-import { Fragment } from "react/jsx-runtime";
 import SectionHeader from "./SectionHeader";
 import { Heading, Image, Link, Stack, Text, VStack } from "@chakra-ui/react";
 import { workExperience } from "../data/workExperience";

@@ -7,7 +7,6 @@ import {
   Heading,
   HStack,
 } from "@chakra-ui/react";
-
 import { projects } from "../data/projects";
 import SectionHeader from "./SectionHeader";
 import { FaGithub, FaGlobe } from "react-icons/fa";
