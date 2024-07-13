@@ -4,7 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <Box padding="10" position="relative">
+    <Box padding="10" marginTop={{ base: "0", md: "20" }} position="relative">
       <Divider />
       <AbsoluteCenter paddingInline="10">
         <HStack cursor="pointer">

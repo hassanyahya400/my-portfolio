@@ -26,8 +26,8 @@ const Contact = () => {
     message: "",
   });
   const socials = [
-    { icon: <FaGithub />, url: "https://github.com/" },
-    { icon: <FaLinkedin />, url: "https://linkedin.com" },
+    { icon: <FaGithub />, url: "https://github.com/hassanyahya400" },
+    { icon: <FaLinkedin />, url: "https://linkedin.com/in/hassanyahya" },
     { icon: <FaXTwitter />, url: "https://twitter.com" },
     { icon: <FaMedium />, url: "https://medium.com" },
   ];
