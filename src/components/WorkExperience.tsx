@@ -26,7 +26,7 @@ const WorkExperience = () => {
             alt="Green double couch with wooden legs"
             borderRadius="md"
           />
-          <Text>{experience.description}</Text>
+          <Text textAlign="justify">{experience.description}</Text>
           <Stack gap="2" mt="2">
             <Text fontWeight="800">Achievements</Text>
             {experience.achievements.split("/").map((achievement) => (

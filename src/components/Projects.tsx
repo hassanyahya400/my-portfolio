@@ -14,7 +14,7 @@ import { FaGithub, FaGlobe } from "react-icons/fa";
 const Projects = () => {
   return (
     <VStack gap="5" alignItems="flex-start">
-      <SectionHeader label="Work Experience" />
+      <SectionHeader label="Projects" />
       {projects.map((project) => (
         <Stack gap="3" key={project.id}>
           <Heading as="h3" size="lg" color="teal.400">
@@ -41,7 +41,7 @@ const Projects = () => {
               <FaGlobe size="24" />
             </Link>
           </HStack>
-          <Text>{project.description}</Text>
+          <Text textAlign="justify">{project.description}</Text>
           <Text>
             <strong>Skills: </strong>
             {project.techSkills}

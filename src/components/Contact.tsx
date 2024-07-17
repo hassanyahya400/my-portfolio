@@ -28,8 +28,8 @@ const Contact = () => {
   const socials = [
     { icon: <FaGithub />, url: "https://github.com/hassanyahya400" },
     { icon: <FaLinkedin />, url: "https://linkedin.com/in/hassanyahya" },
-    { icon: <FaXTwitter />, url: "https://twitter.com" },
-    { icon: <FaMedium />, url: "https://medium.com" },
+    { icon: <FaXTwitter />, url: "https://twitter.com/yougothassan" },
+    { icon: <FaMedium />, url: "https://medium.com/dmdhassan" },
   ];
   function handleFormData(formField: string, value: string) {
     setFormData({ ...formData, [formField]: value });

@@ -7,10 +7,10 @@ const SectionHeader = ({ label }: Props) => {
   return (
     <ModalHeader padding="0">
       <Heading
-        as="h2"
+        as="h3"
         borderBottom="1px"
         paddingBottom="2"
-        size="lg"
+        size="xl"
         marginBottom="2"
         textTransform="uppercase"
         color="teal.500"
